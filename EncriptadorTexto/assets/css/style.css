@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+body {
+    background-image: url(https://us.123rf.com/450wm/leolintang/leolintang1701/leolintang170100365/70677521-hombre-hacker-con-m%C3%A1scara-an%C3%B3nima-robando-datos-usando-el-teclado-virtual-con-c%C3%B3digo-binario-en-el-f.jpg?ver=6);
+    size: 100%;
+}
+.logo{
+    margin-left: 100px;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+header img {
+    margin-top: 2%;
+}
+
+textarea {
+    border: none;
+    outline: none;
+}
+
+.input-panel {
+   position: absolute;
+     margin: 4% 0 0 5%;
+    width: 50%; 
+    background-color: black;
+}
+
+.input-panel textarea {
+    color: #4cca03;
+    font-size: 20px;
+    /* width: 50%; */
+    border-radius: 0px;
+    background-color: black;
+    margin: 30px;
+}
+
+::placeholder {
+    color: #0A3871;
+    font-size: medium;
+}
+
+h5 {
+    margin-top: 1%;
+    margin-bottom: 2%;
+    font-weight: normal;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: bisque;
+}
+
+.btn {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7%;
+    margin-left: 70px;
+}
+
+.btn-encrypt {
+    color: white;
+    background-color: #0A3871;
+    border: #0A3871;
+    border-radius: 20px;
+    width: 48%;
+    padding: 3%;
+}
+
+.btn-encrypt:hover {
+    opacity: 0.9;
+}
+
+.btn-decrypt {
+    color: #0A3871;
+    background-color: #D8DFE8;
+    border-radius: 20px;
+    width: 48%;
+    padding: 3%;
+}
+
+.btn-decrypt:hover {
+    opacity: 0.6;
+}
+
+.white-panel {
+    position: absolute;
+    background: white;
+    border-radius: 22px;
+    text-align: center;
+    padding: 10%;
+    color: #495057;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.white-panel .white-panel-elements {
+    background: white;
+}
+
+.white-panel .white-panel-elements img {
+    background: white;
+    width: 87%;
+    margin: auto;
+}
+
+.white-panel .white-panel-elements h2 {
+    background: white;
+}
+
+.white-panel .white-panel-elements p {
+    background: white;
+}
+
+.white-panel textarea {
+    background: white;
+    color: #495057;
+}
+
+.result-panel {
+    position: absolute;
+    width: 25%;
+    margin-left: 60%;
+}
+
+.result-panel .result-text {
+    background: white;
+    width: 80%;
+}
+
+.btn-copy-panel {
+    background: white;
+    padding: 5%;
+}
+
+.btn-copy {
+    margin-top: 10px;
+    color: #0A3871;
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10%;
+}
+
+.btn-copy:hover {
+    opacity: 0.7;
+}
